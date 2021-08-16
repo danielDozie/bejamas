@@ -1,13 +1,7 @@
 import React from 'react'
-/* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { BellIcon, MenuIcon, XIcon, CartIcon } from '@heroicons/react/outline'
 import TopSection from './TopSection'
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
+import Cart from './Cart'
 
 
 export default function UpperSection() {
@@ -70,10 +64,16 @@ export function Navbar() {
           </div>
             {/**Border */}
           <div className="border-solid border-gray-300 border-b-2"></div>
+          <Cart />
+          
+          
+          
         </>
     </Disclosure>
     
   )
 }
 
-  
+
+
+

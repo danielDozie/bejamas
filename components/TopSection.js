@@ -12,7 +12,7 @@ export default function TopSection() {
           </div>
 
           <div className="flex">
-            <div className="relative bg-local bg-center bg-cover h-96 w-full mt-3 object-cover" style={{backgroundImage: `url(${backImage})`}}>
+            <div className="relative bg-local bg-center bg-cover w-full mt-3 object-cover" style={{backgroundImage: `url(${backImage})`, height: '500px'}}>
                 <div className="bg-white text-black w-40 h-14 absolute bottom-0 left-0 font-400 text-center pt-4"><span className="place-content-center">Photo of the day</span></div>
             </div>
           </div>
