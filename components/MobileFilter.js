@@ -5,7 +5,7 @@ export default function MobileFilter() {
         <>
         <div className="mt-16 w-full h-screen bg-white " style={{ 'height': 700}}>
         <div className="overflow-y-scroll" style={{ 'height': 700}}>
-        <div className="mb-40 mt-2">
+        <div className="mb-20 mt-2">
            <div className="flex justify-between px-4 bg-white">
             <div className=" flex text-xl font-bold py-5 ">
                 <h1>FILTER</h1>
