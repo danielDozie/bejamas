@@ -3,17 +3,16 @@ import React from 'react';
 export default function MobileFilter() {
     return (
         <>
-        <div className="overflow-y-scroll" style={{ 'min-height': 700}}>
-        <div className="flex justify-between px-4 bg-white">
-                                        <div className=" flex text-xl font-bold py-5 ">
-                                            <h1>FILTER</h1>
-                                        </div>
-                                        <div className="py-5 font-bold text-xl">
-                                        <a href="#">
-                                            <h1>X</h1>
-                                            </a>
-                                        </div>
-                                    </div>
+        <div className="mt-16 w-full bg-white overflow-y-scroll" style={{ 'height': 600}}>
+        <div className="mb-40 mt-2">
+           <div className="flex justify-between px-4 bg-white">
+            <div className=" flex text-xl font-bold py-5 ">
+                <h1>FILTER</h1>
+            </div>
+            <div className="py-5 font-bold text-xl">
+            <a href="#"> <h1>X</h1> </a>
+            </div>
+        </div>
         <div className="flex flex-col text-lg font-normal px-4 mb-4">
             <label className="inline-flex items-center mt-3">
                 <input type="checkbox" className="form-checkbox h-4 w-4 text-gray-600" /><span className="ml-3 text-gray-700">People</span>
@@ -76,6 +75,7 @@ export default function MobileFilter() {
         </div>
 
         
+        </div>
         </div>
     </>
     );
