@@ -3,7 +3,7 @@ import React from 'react';
 export default function MobileFilter() {
     return (
         <>
-        <div className="overflow-y-scroll" style={{ 'max-height': 600}}>
+        <div className="overflow-y-scroll" style={{ 'max-height': 650}}>
         <div className="flex justify-between px-4 bg-white">
                                         <div className=" flex text-xl font-bold py-5 ">
                                             <h1>FILTER</h1>
