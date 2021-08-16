@@ -117,9 +117,9 @@ export default function LowerSection() {
                         <div className="md:max-w-9/12">
                             <div className="grid gap-8 md:grid-rows-3 md:grid-cols-2 mt-10 lg:grid-rows-2 lg:grid-cols-3">
                                 <div>
-                                    <div className="relative bg-local bg-center bg-cover object-cover h-80 w-72" style={{ backgroundImage: `url(${productImage1})` }} >
+                                    <div className="relative group bg-local bg-center bg-cover object-cover h-80 w-72" style={{ backgroundImage: `url(${productImage1})` }} >
                                         <span className="bg-white text-black w-20 h-5 absolute top-0 left-0 text-sm text-center"><span className="place-content-center">Best Seller</span></span>
-                                        <button className="bg-black text-white w-full h-10 absolute bottom-0 left-0 text-normal text-center"><span className="place-content-center uppercase">Add to Cart</span></button>
+                                        <button className="block md:hidden group-hover:block bg-black text-white w-full h-10 absolute bottom-0 left-0 text-normal text-center"><span className="place-content-center uppercase">Add to Cart</span></button>
                                     </div>
                                     <div>
                                         <span className="text-left text-gray-600 text-sm">People</span><br />
@@ -129,8 +129,8 @@ export default function LowerSection() {
                                 </div>
 
                                 <div>
-                                    <div className="relative bg-local bg-center bg-cover object-cover h-80 w-72" style={{ backgroundImage: `url(${productImage2})` }} >
-                                        <button className="bg-black text-white w-full h-10 absolute bottom-0 left-0 text-normal text-center"><span className="place-content-center uppercase">Add to Cart</span></button>
+                                    <div className="relative group bg-local bg-center bg-cover object-cover h-80 w-72" style={{ backgroundImage: `url(${productImage2})` }} >
+                                        <button className="block md:hidden md:group-hover:block bg-black text-white w-full h-10 absolute bottom-0 left-0 text-normal text-center"><span className="place-content-center uppercase">Add to Cart</span></button>
                                     </div>
                                     <div>
                                         <span className="text-left text-gray-600 text-sm">People</span><br />
@@ -140,8 +140,8 @@ export default function LowerSection() {
                                 </div>
 
                                 <div>
-                                    <div className="relative bg-local bg-center bg-cover object-cover h-80 w-72" style={{ backgroundImage: `url(${productImage3})` }} >
-                                        <button className="bg-black text-white w-full h-10 absolute bottom-0 left-0 text-normal text-center"><span className="place-content-center uppercase">Add to Cart</span></button>
+                                    <div className="relative group bg-local bg-center bg-cover object-cover h-80 w-72" style={{ backgroundImage: `url(${productImage3})` }} >
+                                        <button className="block md:hidden md:group-hover:block bg-black text-white w-full h-10 absolute bottom-0 left-0 text-normal text-center"><span className="place-content-center uppercase">Add to Cart</span></button>
                                     </div>
                                     <div>
                                         <span className="text-left text-gray-600 text-sm">People</span><br />
@@ -151,8 +151,8 @@ export default function LowerSection() {
                                 </div>
 
                                 <div>
-                                    <div className="relative bg-local bg-center bg-cover object-cover h-80 w-72" style={{ backgroundImage: `url(${productImage2})` }} >
-                                        <button className="bg-black text-white w-full h-10 absolute bottom-0 left-0 text-normal text-center"><span className="place-content-center uppercase">Add to Cart</span></button>
+                                    <div className="relative group bg-local bg-center bg-cover object-cover h-80 w-72" style={{ backgroundImage: `url(${productImage2})` }} >
+                                        <button className="block md:hidden md:group-hover:block bg-black text-white w-full h-10 absolute bottom-0 left-0 text-normal text-center"><span className="place-content-center uppercase">Add to Cart</span></button>
                                     </div>
                                     <div>
                                         <span className="text-left text-gray-600 text-sm">People</span><br />
@@ -162,8 +162,8 @@ export default function LowerSection() {
                                 </div>
 
                                 <div>
-                                    <div className="relative bg-local bg-center bg-cover object-cover h-80 w-72" style={{ backgroundImage: `url(${productImage1})` }} >
-                                        <button className="bg-black text-white w-full h-10 absolute bottom-0 left-0 text-normal text-center"><span className="place-content-center uppercase">Add to Cart</span></button>
+                                    <div className="relative group bg-local bg-center bg-cover object-cover h-80 w-72" style={{ backgroundImage: `url(${productImage1})` }} >
+                                        <button className="block md:hidden md:group-hover:block bg-black text-white w-full h-10 absolute bottom-0 left-0 text-normal text-center"><span className="place-content-center uppercase">Add to Cart</span></button>
                                     </div>
                                     <div>
                                         <span className="text-left text-gray-600 text-sm">People</span><br />
@@ -173,8 +173,8 @@ export default function LowerSection() {
                                 </div>
 
                                 <div>
-                                    <div className="relative bg-local bg-center bg-cover object-cover h-80 w-72" style={{ backgroundImage: `url(${productImage3})` }} >
-                                        <button className="bg-black text-white w-full h-10 absolute bottom-0 left-0 text-normal text-center"><span className="place-content-center uppercase">Add to Cart</span></button>
+                                    <div className="relative group bg-local bg-center bg-cover object-cover h-80 w-72" style={{ backgroundImage: `url(${productImage3})` }} >
+                                        <button className="block md:hidden md:group-hover:block bg-black text-white w-full h-10 absolute bottom-0 left-0 text-normal text-center"><span className="place-content-center uppercase">Add to Cart</span></button>
                                     </div>
                                     <div>
                                         <span className="text-left text-gray-600 text-sm">People</span><br />
