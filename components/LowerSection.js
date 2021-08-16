@@ -33,11 +33,7 @@ export default function LowerSection() {
                                         </div>
                                 </div>
                                 {/*content*/}
-                                <div className="my-16 w-full bg-white">
-                                    {/*body*/}
-                                    <MobileFilter />
-                                    {/*footer*/}
-                                </div>
+                                <MobileFilter />
                                 <div className="flex absolute inset-x-0 bottom-0 items-center bg-white h-20 border-t-2 justify-around">
                                         <button
                                             className="border-2 border-black w-40 h-10 text-black background-white font-bold text-lg uppercase "
