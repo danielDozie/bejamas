@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function MobileFilter() {
+export default function MobileFilter({setShowMobileFilter}) {
     return (
         <>
         <div className="mt-16 w-full h-screen bg-white " style={{ 'height': 700}}>
@@ -10,8 +10,8 @@ export default function MobileFilter() {
             <div className=" flex text-xl font-bold py-5 ">
                 <h1>FILTER</h1>
             </div>
-            <div className="py-5 font-bold text-xl">
-            <a href="#"> <h1>X</h1> </a>
+            <div className="py-5 font-bold text-2xl">
+            <a onClick={() => setShowMobileFilter(false)}> <h1>X</h1> </a>
             </div>
         </div>
         <div className="flex flex-col text-lg font-normal px-4 mb-4">

@@ -1,10 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 export default function Cart() {
+  const [showCart, setShowCart] = useState(false)
+
   const backImage = '../images/pocSlider.jpeg';
+
   return (
     <>
-      <div className="block invisible">
+    {showCart ? (
+      <div className="block">
         <div className="relative">
           <div className="absolute bg-white z-50 text-black w-full md:w-1/3 h-64 top-0 right-0 font-400 text-center border-4">
             <div className="flex justify-end p-4 mb-2">
@@ -38,7 +42,9 @@ export default function Cart() {
 
           </div>
         </div>
-      </div>
+      </div>) : null}
     </>
   );
 }
+
+
