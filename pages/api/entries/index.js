@@ -1,11 +1,12 @@
-import { listProducts} from '@/lib/fauna'
+import { listProducts} from 'graphQL/fauna'
 
 export default async function APIHandler(req, res) {
   const RequestHandlers = {
     GET: async () => {
-      const entries = await listProducts()
+      const products = await listProducts();
 
-      res.json(entries)
+      res.json(products)
+
     },
 
     // POST: async () => {

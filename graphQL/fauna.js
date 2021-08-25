@@ -11,39 +11,26 @@ const graphQLClient = new GraphQLClient(FAUNA_GRAPHQL_BASE_URL, {
 
 export const listProducts = () => {
 	const query = gql`
-		query Products($size: Int) {
-			allProducts(_size: $size) {
+		query Products($size: Int, $cursor: String) {
+			allProducts(_size: $size, _cursor: $cursor) {
 				data {
 					_id
 					_ts
 					name
 					category
 					price
-					details {
-						size
-						dimmentions {
-							width
-							height
-						}
-						description
-						recommendation {
-							image {
-								src
-								alt
-							}
-						}
-					}
 					featured
 					currency
-					dimmentions {
-						width
-						height
-					}
 					bestseller
+					image {
+						src
+					}
 				}
+				before
+				after
 			}
 		}
 	`;
 
-	return graphQLClient.request(query,{size: 1}).then(({ allProducts: { data } }) => data);
+	return graphQLClient.request(query,{size: 6, cursor: $cursor}).then(({ allProducts: { data } }) => data);
 };

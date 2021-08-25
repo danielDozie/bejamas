@@ -1,6 +1,6 @@
 import React from 'react';
 
-const backImage='../images/pocSlider.jpeg';
+const backImage='https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg';
 
 export default function TopSection() {
   return (
